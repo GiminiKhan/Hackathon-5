@@ -15,17 +15,17 @@ const Footer = () => {
           <h1 className="pr-7 text-[#9f9f9f]">Links</h1>
           <ul className="text-black flex flex-col justify-center gap-12">
             <li>
-              <Link href={"/"}>Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href={"/"}>Shop</Link>
+              <Link href="shop">Shop</Link>
             </li>
             <li>
-              <Link href={"/"}>About</Link>
+              <Link href="about">About</Link>
             </li>
             <li>
               {" "}
-              <Link href={"/"}>Contact</Link>
+              <Link href="contact">Contact</Link>
             </li>
           </ul>
         </div>
@@ -33,13 +33,13 @@ const Footer = () => {
           <h1 className="pr-7 text-[#9f9f9f]">Help</h1>
           <ul className="text-black flex flex-col justify-center gap-12">
             <li>
-              <Link href={"/"}>Payment Options</Link>
+              <Link href="payment options">Payment Options</Link>
             </li>
             <li>
-              <Link href={"/"}>Returns</Link>
+              <Link href="returns">Returns</Link>
             </li>
             <li>
-              <Link href={"/"}>Privacy Policy</Link>
+              <Link href="privacy policy">Privacy Policy</Link>
             </li>
           </ul>
         </div>

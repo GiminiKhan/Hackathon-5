@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 
+
 const Header = () => {
     return (
         <header className="grid grid-cols-3 h-[100px] w-[1440px]">
@@ -10,10 +11,10 @@ const Header = () => {
             <div className="h-full flex justify-center items-center">
                 <nav>
                     <ul className="flex gap-16 justify-center items-center font-medium text-base">
-                        <Link href={'/'}>Home</Link>
-                        <Link href={'/'}>Shop</Link>
-                        <Link href={'/'}>About</Link>
-                        <Link href={'/'}>Contact</Link>
+                        <Link href="/">Home</Link>
+                        <Link href="shop">Shop</Link>
+                        <Link href="about">About</Link>
+                        <Link href="contact">Contact</Link>
                     </ul>
                 </nav>
             </div>
@@ -29,7 +30,6 @@ const Header = () => {
                 </nav>
 
             </div>
-
         </header>
     )
 }

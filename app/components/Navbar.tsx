@@ -32,13 +32,13 @@ const Navbar = () => {
         <div
           className={`flex flex-col gap-16 items-center justify-center py-16`}
         >
-          <Link href={"/"}>Home</Link>
-          <Link href={"/shop"}>Shop</Link>
-          <Link href={"/about"}>About</Link>
-          <Link href={"/contact"}>Contact</Link>
+          <Link href="/">Home</Link>
+          <Link href="shop">Shop</Link>
+          <Link href="about">About</Link>
+          <Link href="contact">Contact</Link>
         </div>
         <div className="flex gap-16 items-center justify-center">
-          <Link href={"/account"}>
+          <Link href="account">
             <Image
               src={"/icons/account.svg"}
               width={28}
