@@ -1,35 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Header from './components/Header';
 
-
+// bg-[#FBEBB5]
 export default function Home() {
   return (
     <>
       <header className="grid grid-cols-3 w-full h-[100px] bg-[#FBEBB5]">
-        <div></div>
-        <div className="h-full flex justify-center items-center">
-          <nav>
-            <ul className="text-black flex gap-16 justify-center items-center font-medium">
-              <Link href={'/'}>Home</Link>
-              <Link href={'/'}>Shop</Link>
-              <Link href={'/'}>About</Link>
-              <Link href={'/'}>Contact</Link>
-            </ul>
-          </nav>
-        </div>
-        <div className="h-full flex justify-center items-center">
-          <nav>
-            <ul className="flex gap-10 justify-center items-center">
-              <Link href={'/'}><Image src={'/account.svg'} width={28} height={28} alt='image' /></Link>
-              <Link href={'/'}><Image src={'/search.svg'} width={28} height={28} alt='image' /></Link>
-              <Link href={'/'}><Image src={'/like.svg'} width={28} height={28} alt='image' /></Link>
-              <Link href={'/'}><Image src={'/cart.svg'} width={28} height={28} alt='image' /></Link>
-
-            </ul>
-          </nav>
-
-        </div>
-
+        <div><Header/></div>
       </header>
 
       <section className='w-full h-[900px] bg-[#FBEBB5] flex justify-center pl-14 items-center'>
