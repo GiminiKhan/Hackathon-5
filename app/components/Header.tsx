@@ -9,7 +9,7 @@ const Header = () => {
         <header className="grid grid-cols-3 h-[100px] w-[1440px] bg-[#FBEBB5] ">
             <div className="h-full flex justify-center items-center">
                 <nav>
-                    <ul className="flex gap-16 justify-center items-center font-medium text-white">
+                    <ul className="flex gap-16 justify-center items-center font-medium text-black">
                         <Link href="/">Home</Link>
                         <Link href="/shop">Shop</Link>
                         <Link href="/about">About</Link>
