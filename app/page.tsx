@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <>
       <header className="grid grid-cols-3 w-full h-[100px] bg-[#FBEBB5]">
+        <div className="text-center md:text-left"></div>
         <div><Header/></div>
       </header>
 
